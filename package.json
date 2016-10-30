@@ -1,0 +1,22 @@
+{
+  "name": "hue",
+  "version": "1.0.0",
+  "description": "Flames for Philips Hue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theojapa/hue.git"
+  },
+  "author": "Theo",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/theojapa/hue/issues"
+  },
+  "homepage": "https://github.com/theojapa/hue#readme",
+  "dependencies": {
+    "node-hue-api": "^2.3.0"
+  }
+}
