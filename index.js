@@ -6,8 +6,6 @@ const username = 'jaZugIS7B0DAXbaDRa-6l5wlKdRvNa9cfA5GJ3lE';
 
 const api = new HueApi(hostname, username);
 
-// api.config().then(config => console.log(config));
-
 api.lights()
   .then(response => {
     const lights = response.lights.reduce((reduction, l) => {
@@ -22,7 +20,6 @@ api.lights()
 
     flames(lights.Porch);
     lightning(lights.Fireplace, lights.Vodka, lights.Bedroom, lights.Moon);
-    // randomColors(...allLights);
   });
 
 function flames(...lights) {
